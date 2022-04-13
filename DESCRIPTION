@@ -1,0 +1,13 @@
+Package: qcensus
+Title: Calculate US Population Based on Year and Age
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jacob", "Clarke", , "jacobclarke718@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Claculates us population from age and year.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    magrittr
