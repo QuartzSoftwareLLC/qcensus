@@ -12,7 +12,6 @@ remotes::install_github("quartzsoftwarellc/qcensus")
 
 ## Usage
 
-All components in the [mui](https://mui.com) library are available in this package. And can be used in accordance with their documentation.
 
 ```{R}
 qcensus::qcensus(c(2020), c(18,50))
