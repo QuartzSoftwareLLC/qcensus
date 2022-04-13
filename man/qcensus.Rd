@@ -7,12 +7,12 @@
 qcensus(yearz, agez)
 }
 \arguments{
-\item{yearz}{list of years to calculate 2016 - 2060}
+\item{yearz}{int or vector of years to calculate 2016 - 2060}
 
-\item{agez}{list of ages to calculate 0 - 100}
+\item{agez}{int or vector of ages to calculate 0 - 100}
 }
 \description{
-Calculate number of people in the use population for a given range of years and ages
+Calculate number of people in the US population for a given range of years and ages
 }
 \examples{
 qcensus(yearz = c(2016, 2017), agez = c(0, 100))
