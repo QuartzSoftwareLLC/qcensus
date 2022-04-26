@@ -6,7 +6,7 @@
 #' @param agez int or vector of ages to calculate 0 - 100
 #' @export
 #' @examples
-#' qcensus(yearz = c(2016, 2017), agez = c(0, 100))
+#' qcensus(yearz = 2016:2017, agez = 0:100)
 #' @importFrom dplyr select
 qcensus <- function(yearz, agez){
   if(!all(yearz %in% unique(census$year))) 
